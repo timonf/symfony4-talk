@@ -5,7 +5,8 @@ body {
 .reveal {
     font-family: ff-kievit-web-pro, "Source Sans Pro", Helvetica, Arial, sans-serif;
     color: #666;
-    font-size: 1.4em;
+    font-size: 1.7em;
+    line-height: 1.85em;
     letter-spacing: 0.05em;
 }
 
@@ -67,7 +68,9 @@ body {
     list-style-type: none;
     text-align: left;
     margin-bottom: 1.5rem;
-    margin-left: 3.5rem;
+    margin-left: 0;
+    padding-left: 3.5rem;
+    text-indent: -3rem;
 }
 
 .reveal ul li:before {

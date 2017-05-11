@@ -45,7 +45,7 @@ Timon, Software Developer @ **Interlutions** · [@t1m0n](https://twitter.com/t1m
 # …conclusion:
 
 * Symfony is a good way, but causes problems
-  <span class="fragment fade-in">especially on small pages for reused use-cases</span>
+  <span class="fragment fade-in"><br>especially on small pages for reused use-cases</span>
 
 ------
 # Do you know the `TemplateController`?
@@ -202,7 +202,6 @@ and:
 {% extends 'base.html.twig' %}
 
 {% block body %}
-  <h2>Schreib mir :)</h2>
   {{ form_start(form) }}
     {{ form_rest(form) }}
     <button type="submit">Yeah, send it!</button>
@@ -215,6 +214,7 @@ and:
 ## Some more Twig, because we will send an email:
 
 ```twig
+{# app/Resources/views/mail/contact.html.twig #}
 New mail on your page!
 
 From: {{ entity.name }} <{{ entity.email }}>
@@ -260,9 +260,10 @@ app_contact:
         entity:      'AppBundle\Entity\Contact'
         template:    info/contact.html.twig
         options:
-            form_class: 'AppBundle\Form\ContactType'
-            subject:    'Email from your webpage'
-            to:         'myself@example.com'
+            form_class:    'AppBundle\Form\ContactType'
+            subject:       'Email from your webpage'
+            to:            'myself@example.com'
+            emailTemplate: 'mail/contact.html.twig'
 ```
 
 ---
