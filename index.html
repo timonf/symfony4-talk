@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Getting started with Twigony | Fast prototyping and bootstrapping Symfony pages</title>
+  <meta name="desciption" content="Twigony: Fast prototyping and bootstrapping Symfony applications. Twigony is based on the idea of TemplateController!">
+
+  <!-- Fallback to a nice alternative, similar to Interlution's one -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+  <!-- Other fonts and CSS stuff -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="assets/reveal.css">
+  <link rel="stylesheet" href="assets/zenburn.css">
+  <link rel="stylesheet" href="assets/itl.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown="slides.md" data-separator="^------" data-separator-vertical="^---" data-separator-notes="^\*Info\*:"></section>
+    </div>
+  </div>
+
+  <script src="assets/head.min.js"></script>
+  <script src="assets/reveal.js"></script>
+
+  <script>
+    Reveal.initialize({
+      history: true,
+      slideNumber: true,
+      controls: false,
+      dependencies: [
+        { src: 'assets/marked.js' },
+        { src: 'assets/markdown.js' },
+        { src: 'assets/notes.js', async: true },
+        { src: 'assets/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+      ]
+    });
+  </script>
+
+</body>
+</html>

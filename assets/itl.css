@@ -1,0 +1,133 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.reveal {
+    font-family: ff-kievit-web-pro, "Source Sans Pro", Helvetica, Arial, sans-serif;
+    color: #666;
+    font-size: 1.4em;
+    letter-spacing: 0.05em;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6,
+.reveal p,
+.reveal pre code,
+.reveal ul {
+    margin-bottom: 1rem;
+}
+
+.reveal h1,
+.reveal h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1.8rem;
+}
+
+.reveal h3 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 1.4rem 0 3rem;
+}
+
+.reveal h1:before,
+.reveal h2:before {
+    content: " ";
+    display: block;
+    width: 6.25rem;
+    height: .3125rem;
+    background-color: #1ee6fa;
+    position: relative;
+    left: .125rem;
+    margin: 0 auto .5rem;
+}
+
+.reveal a {
+    color: #1ee6fa;
+    font-weight: 900;
+}
+
+.reveal strong {
+    font-weight: 900;
+}
+
+.reveal em {
+    font-weight: 600;
+}
+
+.reveal ul {
+    display: inline-block;
+}
+
+.reveal ul li {
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    margin-left: 3.5rem;
+}
+
+.reveal ul li:before {
+    float: left;
+    width: 3rem;
+    display: block;
+    content: '→ ';
+    color: #1ee6fa;
+    font-weight: 800;
+}
+
+.reveal code,
+.reveal pre {
+    font-family: "Source Code Pro", monospace;
+}
+
+.reveal pre code {
+    text-align: left;
+    overflow: hidden;
+    line-height: 1.5em;
+}
+
+.reveal .progress {
+    background-color: #2a2a2c;
+}
+
+.reveal .progress span {
+    background-color: #1ee6fa;
+}
+
+.reveal .slide-number {
+    background: rgba(42,42,44,.85);
+    color: #fff;
+    font-family: ff-kievit-web-pro, "Source Sans Pro", Helvetica, Arial, sans-serif;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+}
+
+.reveal .has-light-background,
+.reveal [data-class=has-light-background] {
+    color: #fff;
+}
+
+.reveal .has-light-background a,
+.reveal [data-class=has-light-background] a {
+    color: #fff;
+}
+
+.reveal .has-light-background h1:before,
+.reveal .has-light-background h2:before,
+.reveal [data-class=has-light-background] h1:before,
+.reveal [data-class=has-light-background] h2:before {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.reveal [data-background-image][data-class=has-light-background] {
+    text-shadow: 0 0 0.8em rgba(0,0,0,1), 0 0 0.2em rgba(0,0,0,0.5);
+}
+
+.reveal img {
+    max-height: 80%;
+    max-width: 100%;
+}
