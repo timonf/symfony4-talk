@@ -334,6 +334,7 @@ $app->get('/team/{team_member}', function (Silex\Application $app, $team_member)
    })->bind('team');
 ```
 
+---
 ## After (with Twigony)
 
 ```yaml
