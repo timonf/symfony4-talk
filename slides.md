@@ -60,7 +60,7 @@ but
 * Composer
 * Symfony Flex
 * Minimalistic Symfony setup
-* Much configuration 
+* Less configuration
 
 ------
 <!-- .slide: data-background="#1ee6fa" -->
